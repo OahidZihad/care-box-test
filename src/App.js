@@ -17,20 +17,20 @@ function App() {
     <Router>
       <div className="App">
         {/* <Navbar></Navbar> */}
-        {/* <Routes> */}
-        <Route path="/home">
-          <Home />
-        </Route>
-        <Route exact path="/">
-          <Home />
-        </Route>
-        <Route path="/form">
-          <MainForm />
-        </Route>
-        <Route path="/data">
-          <GetData />
-        </Route>
-        {/* </Routes> */}
+        <Switch>
+          <Route path="/home">
+            <Home />
+          </Route>
+          <Route exact path="/">
+            <Home />
+          </Route>
+          <Route path="/form">
+            <MainForm />
+          </Route>
+          <Route path="/data">
+            <GetData />
+          </Route>
+        </Switch>
       </div>
     </Router>
   );
