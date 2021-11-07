@@ -1,4 +1,3 @@
-import logo from "./logo.svg";
 import "./App.css";
 import MainForm from "./Components/MainForm/MainForm";
 import GetData from "./Components/GetData/GetData";
